@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff; /* สีพื้นหลังของหัวข้อในตาราง */
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff; /* สีพื้นหลังของฟุตเตอร์ */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* CSS สำหรับบล็อกล็อกอิน */
+.login-container {
+    width: 400px;                   /* กำหนดความกว้างของบล็อก */
+    margin: 100px auto;             /* จัดให้อยู่ตรงกลางของหน้า */
+    padding: 30px;                  /* เพิ่มพื้นที่ในบล็อก */
+    background-color: #f0f0f0;      /* สีพื้นหลังของบล็อก */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* เพิ่มเงารอบบล็อก */
+    border-radius: 8px;             /* มุมโค้งมน */
+}
+
+.login-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.login-container label {
+    display: block;
+    font-size: 16px;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
